@@ -17,16 +17,15 @@ pip install rasa==1.10.14
 
 ## Rode o bot
 
-Para rodar o bot é necessário treiná-lo primeiro, para isso rode os seguites comandos:
+Para rodar o bot é necessário treiná-lo primeiro, para isso rode o comando:
 
 ``` bash
-rasa train nlu
 rasa train
 ```
 
 Com o chatbot devidamente treinado, veja sua interação pelo terminal com o comando:
 
-```
+``` bash
 rasa shell
 ```
 
